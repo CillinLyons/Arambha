@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title></title>
+
+    <!-- CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Combo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Google Maps -->
+    <script src="JS/index.js"></script>
+
+    <!--JavaScript Select -->
+    <script src="JS/select.js"></script>
+  </head>
+
+  <body>
+    <!-- Blog -->
+
+    <section class="navbar-section" id="workshop-section">
+      <div class="container-fluid">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <!-- Navbar Title -->
+          <a class="navbar-brand" href="http://arambha.net/">
+            <span class="title-arambha">ARAMBHA</span>
+          </a>
+
+          <!-- Navbar Mobile Button -->
+          <button
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar Items -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="http://arambha.net/casa.html">Casa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://arambha.net/seminario.html"
+                  >Seminario</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://arambha.net/blog-pt.html"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://arambha.net/amigos.html"
+                  >Amigos</a
+                >
+              </li>
+            </ul>
+
+            <!-- Language selection -->
+            <select name="language" id="language" onchange="select.js">
+              <option value="english-index">En</option>
+              <option value="german-index">De</option>
+              <option value="portuguese-index" selected="selected">Pt</option>
+            </select>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Slideshow container -->
+      <div class="workshop__container">
+        <!-- Full-width images with number and caption text -->
+        <div class="workshop__slide fade">
+          <img src="images/workshop-1.jpg" class="workshop__img" />
+          <div class="workshop__caption"></div>
+        </div>
+
+        <div class="workshop__slide fade">
+          <img src="images/workshop-2.jpg" class="workshop__img" />
+          <div class="workshop__caption"></div>
+        </div>
+
+        <div class="workshop__slide fade">
+          <img src="images/workshop-3.jpg" class="workshop__img" />
+          <div class="workshop__caption"></div>
+        </div>
+
+        <div class="workshop__slide fade">
+          <img src="images/workshop-4.jpg" class="workshop__img" />
+          <div class="workshop__caption"></div>
+        </div>
+
+        <div class="workshop__slide fade">
+          <img src="images/workshop-5.jpg" class="workshop__img" />
+          <div class="workshop__caption"></div>
+        </div>
+
+        <div class="workshop__slide fade">
+          <img src="images/workshop-6.jpg" class="workshop__img" />
+          <div class="workshop__caption"></div>
+        </div>
+
+        <div class="workshop__slide fade">
+          <img src="images/workshop-7.jpg" class="workshop__img" />
+          <div class="workshop__caption"></div>
+        </div>
+
+        <div class="workshop__slide fade">
+          <img src="images/workshop-8.jpg" class="workshop__img" />
+          <div class="workshop__caption"></div>
+        </div>
+
+        <div class="workshop__slide fade">
+          <img src="images/workshop-9.jpg" class="workshop__img" />
+          <div class="workshop__caption"></div>
+        </div>
+
+        <div class="workshop__slide fade">
+          <img src="images/workshop-10.jpg" class="workshop__img" />
+          <div class="workshop__caption"></div>
+        </div>
+
+        <div class="workshop__slide fade">
+          <img src="images/workshop-11.jpg" class="workshop__img" />
+          <div class="workshop__caption"></div>
+        </div>
+
+        <div class="workshop__slide fade">
+          <img src="images/workshop-12.jpg" class="workshop__img" />
+          <div class="workshop__caption"></div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="workshop__prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="workshop__next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+
+      <div class="workshop__btn">
+        <p>
+          Organiz seu próprio retiro ou workshop na natureza. Vistas
+          deslumbrantes, lungares incrives para descansar e muitas boas
+          vibrações.
+        </p>
+        <a
+          href="http://arambha.net/casa.html#contact-section"
+          class="btn btn-secondary"
+          >Reserve agora &rarr;</a
+        >
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer-section--workshop" id="footer">
+      <!--Copyright Text-->
+      <div class="container-fluid">
+        <!--Copyright Text-->
+        <p class="footer-text">© Copyright 2021 Arambha</p>
+      </div>
+    </footer>
+    <script src="JS/script.js"></script>
+  </body>
+</html>

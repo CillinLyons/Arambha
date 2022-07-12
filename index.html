@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title></title>
+
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/icon-font.css">
+
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Combo&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/deaeddb23e.js" crossorigin="anonymous"></script>
+
+  <!-- Google Maps -->
+  <script src="JS/index.js"></script>
+
+  <!--JavaScript Select -->
+  <script src="JS/select.js"></script>
+</head>
+
+<body>
+
+  <!-- Project Description -->
+  <section class="navbar-section" id="projectDescription">
+
+    <div class="container-fluid">
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <!-- Navbar Title -->
+        <a class="navbar-brand me-auto" href="http://arambha.net/">
+          <span class="title-arambha">ARAMBHA</span>
+        </a>
+
+        <!-- Navbar Mobile Button -->
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Items -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="http://arambha.net/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://arambha.net/workshop.html">Workshop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://arambha.net/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://arambha.net/friends.html">Friends</a>
+            </li>
+          </ul>
+
+          <!-- Language selection -->
+          <select name="language" id="language" onchange="select.js">
+            <option value="english-index">En</option>
+            <option value="german-index">De</option>
+            <option value="portuguese-index">Pt</option>
+          </select>
+
+        </div>
+      </nav>
+    </div>
+
+    <!-- Project Definition -->
+    <div class="project-description container-fluid">
+
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Arambha:</span>
+          <span class="heading-primary--sub">Beginning & One</span>
+        </h1>
+
+      </div>
+
+      <p id="projectDescription">
+        Arambha is a permaculture project for the networking of cultures and the synergetic use of resources. We live in an exciting and challenging time in which, as never before, there is the chance to combine old with new knowledge and to
+        exchange ideas. Different cultures bring different knowledge from different ages and on this we rely. Arambha means "beginning" and "one" in Sanskrit and serves as a showcase for the transition into a new age. There are only a few places
+        in the world where you can find such a variety of plants. How does it sound to you: chestnut trees next to bananas, lemons next to plums or walnuts next to passion fruit? The conscious person longs to supply his body with nutrients, to
+        nourish his spirit philosophically and to offer free development for his soul. Our soul path includes the provision and organization of a place of peaceful and open exchange and holistic healing. Regardless of whether you are interested
+        in organic farming, sustainable construction, holistic health or alternative education, you have come to the right place. Welcome to Arambha!
+      </p>
+
+    </div>
+  </section>
+
+  <!-- Video -->
+  <section class="white-section" id="video">
+    <div class="container">
+
+      <div class="embed-responsive embed-responsive-16by9" id="video-frame">
+        <iframe class="embed-responsive-item responsive-iframe" src="https://www.youtube.com/embed/qkIP28uuldw" allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- About Us -->
+  <section class="green-section" id="about">
+    <div class="card-header">
+      <nav>
+
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="tab-btn" data-bs-toggle="tab" data-bs-target="#nav-agriculture" type="button" role="tab" aria-controls="nav-agriculture" aria-selected="true">Agriculture</button>
+          <button class="nav-link" id="tab-btn" data-bs-toggle="tab" data-bs-target="#nav-construction" type="button" role="tab" aria-controls="nav-construction" aria-selected="false">Construction</button>
+          <button class="nav-link" id="tab-btn" data-bs-toggle="tab" data-bs-target="#nav-health" type="button" role="tab" aria-controls="nav-health" aria-selected="false">Health</button>
+          <button class="nav-link" id="tab-btn" data-bs-toggle="tab" data-bs-target="#nav-education" type="button" role="tab" aria-controls="nav-education" aria-selected="false">Education</button>
+        </div>
+      </nav>
+    </div>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-agriculture" role="tabpanel" aria-labelledby="nav-agriculture-tab">
+
+        <!-- First Card -->
+        <div class="card-group">
+          <div class="col-lg-4 col-md-4 col-sm-6" style="float:left">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/having-fun.jpg" alt="Hands planting seeds">
+              <div class="card-body">
+                <p class="card-text">
+                  Anyone who wants to understand the basis of human health must first deal with the nature of agricultural soils. Humans are made up of over 80 minerals, metals and trace elements and in the long term
+                  are dependent on consuming them in the form of wholesome foods in order to make progress in life in a fully functioning and healthy manner. With a look at the soil quality of a country, one can draw
+                  conclusions and make prognoses about the health of the population.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Card -->
+          <div class="col-lg-4 col-md-4 col-sm-6" style="float:left">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/3bee.jpg" alt="Bee on flower">
+              <div class="card-body">
+                <p class="card-text">
+                  In addition to the minerals, the arrangement of the plants also plays an important role. In a proper mixed culture we find plenty of
+                  plants that are not edible for humans. Insects, birds, small animals, bacteria and other microorganisms will benefit of those.
+                  If we see the wholeness of life as a "togetherness and for one another", then we understand that part of "our" food belongs to the animals.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Third Card -->
+          <div class="col-lg-4 col-md-4 col-sm-6" style="float:left">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/13plant.jpg" alt="Girl holding plant">
+              <div class="card-body">
+                <p class="card-text">
+                  Finally we invade their areas and claim them for ourselves. Nature gives enough for everyone and as a reminder: Nature does not need
+                  humans. Another advantage with a high diversity of plants is the development of the secondary plant substances. In order for a plant to assert itself against others, it has to be strong and it has to
+                  protect itself from predators. This is done with secondary plant substances. Many of these substances bring health benefits to people, especially when it comes to preventing desease and maintaining
+                  good health. A lot of research is carried out on secondary plant substances in laboratories and yet, due to the large number of plants, very little is known and even less is known about the synergetic
+                  effect when combining the active ingredients. Nature rewards diversity and cooperation. When composting, humans bring the soil to life and promote diversity in the microorganisms and thus have an "army"
+                  that works for them; similar to the healthy intestinal flora. The more animals are invited on the land, the more they give back as fertilizer in the form of excrement. The great cycle; Everything is connected.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="nav-construction" role="tabpanel" aria-labelledby="nav-construction-tab">
+
+        <div class="card-group">
+          <!-- First Card -->
+          <div class="col-lg-4 col-md-4 col-sm-6" style="float:left">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/clay.jpg" alt="Creating cement blocks">
+              <div class="card-body">
+                <p class="card-text">
+                  Our Superadobe domes are made from a mixture of lime, sand and gravel and are designed to last for a very long time and to ensure a healthy indoor climate.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Card -->
+          <div class="col-lg-4 col-md-4 col-sm-6" style="float:left">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/10holes.jpg" alt="Dome birdseye view">
+              <div class="card-body">
+                <p class="card-text">
+                  In Madeira it is very challenging to deal with the high humidity and to avoid mold growth in buildings above a certain sea level. Thanks to the high pH value of lime, it is preferable to cement. Furthermore, the lime mixture
+                  makes the
+                  structure
+                  able to breath and also keeps many insects away from the interior. Lime was used a time ago to build on the island and the "good" houses were described as "made of lime and stone". In summer the buildings
+                  stay fresh thanks to the lime, it feels like air conditioning and in winter wood stoves provide cozy warmth. The walls store the heat and slowly release it again. Due to the round design, the heat stays
+                  mainly in the rooms with the stoves and thus ensures a pleasant temperature difference to the bedrooms, where a slightly lower temperature is desired.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Third Card -->
+          <div class="col-lg-4 col-md-4 col-sm-6" style="float:left">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/dome.jpg" alt="Dome in nature">
+              <div class="card-body">
+                <p class="card-text">
+                  Since the name of the island translates as wood, we wanted to pay more attention to this topic and are doing pioneering work in exploring this topic. 100% natural, without artificial insulation
+                  materials, toxic adhesives or other materials that affect human health.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="nav-health" role="tabpanel" aria-labelledby="nav-health-tab">
+
+        <div class="card-group">
+          <!-- First Card -->
+          <div class="col-lg-4 col-md-4 col-sm-6" style="float:left">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/meditate.jpeg" alt="Lady doing handstand">
+              <div class="card-body">
+                <p class="card-text">
+                  We see health in the 3 areas of body, mind and soul. These are inextricably linked. We can see our bodies with our eyes and grasp them with our hands, we rely on our sensory perception. In the case of the mind,
+                  this becomes more difficult because this takes place via an extrasensorial perception. As children we have the ability to see colors around our bodies and to see ourselves as part of the whole. As soon as "I" and "you" are
+                  learned we
+                  are already in the
+                  perception of a separation. Most people forget to see the colors around the body (aura) because our senses are extremely flooded and overstimulated in the "modern" world. We should be aware that it does not mean that something
+                  does not
+                  exist because we cannot see it such as radio waves, radiation or love.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Card -->
+          <div class="col-lg-4 col-md-4 col-sm-6" style="float:left">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/food.jpg" alt="Bowls of food">
+              <div class="card-body">
+                <p class="card-text">
+                  Rudolf Steiner was of the opinion that there is no such thing as mental illness, since the mind can never be sick. It may very well be that a spirit cannot
+                  develop properly in the given body and it's physical conditions. A healthy mind can only live in a healthy body, as the Roman poet Juvenal recognized about 2000 years ago. If people lack nutrients, they are also more susceptible to
+                  parasites,
+                  which pursue their own goals in the body and thus prevent the mind from developing freely. Parasites can control people emotionally and move them to actions that they would not carry out in a parasite-free state, see
+                  Toxoplasma Gondii.
+                  In contrast to our physical body, our soul is immortal and strives for experiences in this lowest realm, the physical manifestation. A soul is energy and energy can never be destroyed or created, it can only be transformed.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Third Card -->
+          <div class="col-lg-4 col-md-4 col-sm-6" style="float:left">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/path.jpg" alt="Path into the sun">
+              <div class="card-body">
+                <p class="card-text">
+                  Emotional healing is also about transformation. Every person is only able to process a certain amount of emotions, the rest is held and stored in our emotional body. How many and which emotions we can process differs from
+                  person to person.
+                  Everyone is individual, has their own story and the ability to deal with traumas. In the course of life we can learn to deal with our emotions and to process them. Regardless of whether we are aware of it or not: the principle
+                  that like
+                  attracts like works. With burdening emotions we attract more of the same, painful experiences, we accumulate energy in interference fields, strain our organs and complicate our lives by not being able to walk our soul path
+                  with joy and
+                  without limitations. The connection between organ systems and emotions is pointed out in various traditional teachings of medicine in a wide variety of cultures. The time at which we give these essential things the appropriate
+                  importance has come (again). Let us be free from conditioning and the painful stories we tell ourselves about us. If I always do what I already know, I will always be the person I already am. New paths lead to new goals.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="nav-education" role="tabpanel" aria-labelledby="nav-education-tab">
+
+        <div class="card-group">
+
+          <!-- First Card -->
+          <div class="col-lg-4 col-md-4 col-sm-6" style="float:left">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/road.jpg" alt="Road to Arambha">
+              <div class="card-body">
+                <p class="card-text">
+                  In order to prepare children and young people well for life, we founded the Barefoot Life Architect School.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Card -->
+          <div class="col-lg-4 col-md-4 col-sm-6" style="float:left">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/hand.jpg" alt="Hand holding flowers">
+              <div class="card-body">
+                <p class="card-text">
+                  In the middle of nature, workshops on the subject of woodworking, nutrition, agriculture, holistic health, manifestation, internet, technology, music, art and much more are offered in different languages.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Third Card -->
+          <div class="col-lg-4 col-md-4 col-sm-6" style="float:left">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/5dog.jpg" alt="Girl hugging dog">
+              <div class="card-body">
+                <p class="card-text">
+                  For more information, please visit the Jardim da Cura website: <a class="jardim-link" href="jardimdecura.eu">LINK</a>
+                  <br>
+                  Here you can download our concept folder of the Barefoot School: PDF
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photowall -->
+  <section class="white-section" id="photowall">
+
+    <div class="container-fluid">
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-margin active">
+            <img class="d-block w-100" src="images/having-fun.jpg" alt="Groupd of people posing">
+          </div>
+          <div class="carousel-item carousel-margin">
+            <img class="d-block w-100" src="images/veg-garden.JPG" alt="Groupd of people posing">
+          </div>
+          <div class="carousel-item carousel-margin">
+            <img class="d-block w-100" src="images/chicken.JPG" alt="Groupd of people posing">
+          </div>
+          <div class="carousel-item carousel-margin">
+            <img class="d-block w-100" src="images/pose.jpg" alt="Groupd of people posing">
+          </div>
+          <div class="carousel-item carousel-margin">
+            <img class="d-block w-100" src="images/new-path.JPG" alt="Groupd of people posing">
+          </div>
+          <div class="carousel-item carousel-margin">
+            <img class="d-block w-100" src="images/new-site.JPG" alt="Groupd of people posing">
+          </div>
+          <div class="carousel-item carousel-margin">
+            <img class="d-block w-100" src="images/2volunteering.jpg" alt="Hands planting seeds">
+          </div>
+          <div class="carousel-item carousel-margin">
+            <img class="d-block w-100" src="images/3bee.jpg" alt="Bee on flower">
+          </div>
+          <div class="carousel-item carousel-margin">
+            <img class="d-block w-100" src="images/4roof.jpg" alt="Guys building dome">
+          </div>
+          <div class="carousel-item carousel-margin">
+            <img class="d-block w-100" src="images/5dog.jpg" alt="Girl hugging dog">
+          </div>
+          <div class="carousel-item carousel-margin">
+            <img class="d-block w-100" src="images/6clay.jpg" alt="Creating cement blocks">
+          </div>
+          <div class="carousel-item carousel-margin">
+            <img class="d-block w-100" src="images/8butterfly.jpg" alt="Butterfly on plant">
+          </div>
+          <div class="carousel-item carousel-margin">
+            <img class="d-block w-100" src="images/9chill.jpg" alt="Guy relaxing on chair">
+          </div>
+          <div class="carousel-item carousel-margin">
+            <img class="d-block w-100" src="images/bush.JPG" alt="Guy relaxing on chair">
+          </div>
+          <div class="carousel-item carousel-margin">
+            <img class="d-block w-100" src="images/10holes.jpg" alt="Birdseye view of dome">
+          </div>
+          <div class="carousel-item carousel-margin">
+            <img class="d-block w-100" src="images/12dj.jpg" alt="DJ playing music">
+          </div>
+          <div class="carousel-item carousel-margin">
+            <img class="d-block w-100" src="images/13plant.jpg" alt="Girl holding plant">
+          </div>
+          <div class="carousel-item carousel-margin">
+            <img class="d-block w-100" src="images/road.jpg" alt="Road to Arambha">
+          </div>
+          <div class="carousel-item carousel-margin">
+            <img class="d-block w-100" src="images/15fire.jpg" alt="Hands over fire">
+          </div>
+          <div class="carousel-item carousel-margin">
+            <img class="d-block w-100" src="images/earth-scent.jpg" alt="Hands over fire">
+          </div>
+        </div>
+
+        <!-- Next & Prev Buttons -->
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="white-section" id="workshop">
+    <div class="container-fluid">
+      <div class="workshop__title-container">
+        <h2 class="heading-secondary">
+          Workshops 
+        </h2>
+      </div>
+  
+      <div class="workshop__content-container">
+        <div class="workshop__content-container--left">
+          <h3 class="heading-tertiary">
+            The perfect stage for your events
+          </h3>
+          <p class="paragraph">
+            Enjoy this unique space in nature to create your own event. Beside the given infrastructure we can assist you in setting up your dreamspace in the mountains of Madeira. 
+          </p>
+  
+          <h3 class="heading-tertiary">Let our space be your space</h3>
+          <p class="paragraph">
+            Co-create with us a bright future. Send us an e-mail with your enquiry
+          </p>
+          <div class="workshop__btn-area">
+            <a href="http://arambha.net/workshop.html" class="btn-text">Learn More &rarr;</a>
+          </div>
+        </div>
+  
+        <div class="workshop__content-container--right">
+          <div class="composition">
+  
+            <!--
+            Srcset specifies the images available along with their width
+           -->
+            <img srcset="images/workshop-4.jpg 300w"
+                 sizes="(max-width: 56.25em) 20vw 300px"
+                 alt="Photo 1"
+                 class="composition__photo composition__photo--p1"
+                 src="images/workshop-4.jpg">
+  
+            <img srcset="images/workshop-8.jpg 300w"
+                 sizes="(max-width: 56.25em) 20vw, 300px"
+                 alt="Photo 2"
+                 class="composition__photo composition__photo--p2"
+                 src="images/workshop-8.jpg">
+  
+            <img srcset="images/workshop-10.jpg 300w"
+                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                 alt="Photo 3"
+                 class="composition__photo composition__photo--p3"
+                 src="images/workshop-10.jpg">
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Help -->
+  <section class="green-section" id="help">
+    <div class="accordion accordion-flush" id="aboutAccordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="volunteer">
+          <button class="accordion-button collapsed help-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-helpCollapseOne" aria-expanded="false" aria-controls="flush-helpCollapseOne">
+            Volunteer
+          </button>
+        </h2>
+        <div id="flush-helpCollapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+
+
+            <div class="container-fluid">
+              <p>The Arambha Project welcomes volunteers from all over the world.
+                The work on the 2 hectare site is of different nature and we can use a helping hand, regardless of the knowledge, ability and fitness level of the people. For 20 hours of
+                help per week, Arambha can be you home, where you can:</p>
+            </div>
+
+            <div class="row row--volunteer">
+
+              <!-- Icon Keypoints -->
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <i class="fas fa-bed fa-4x icon fa-gradient"></i>
+                <h3 class="keypoint-title">Rest</h3>
+                <p></p>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <i class="fas fa-hand-holding-water fa-4x icon fa-gradient"></i>
+                <h3 class="keypoint-title">Nourish</h3>
+                <p></p>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <i class="fas fa-chalkboard-teacher fa-4x icon fa-gradient"></i>
+                <h3 class="keypoint-title">Learn</h3>
+                <p></p>
+              </div>
+
+            </div>
+
+            <div class="row row--volunteer">
+
+              <!-- Icon Keypoints -->
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <i class="fas fa-paint-brush fa-4x icon fa-gradient"></i>
+                <h3 class="keypoint-title">Create</h3>
+                <p></p>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <i class="fas fa-seedling fa-4x icon fa-gradient"></i>
+                <h3 class="keypoint-title">Garden</h3>
+                <p></p>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <i class="fas fa-hiking fa-4x icon fa-gradient"></i>
+                <h3 class="keypoint-title">Experience</h3>
+                <p></p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="container-fluid">
+
+            <div class="card">
+              <div class="card-header">
+                Is there a minimum or maximum age for helping on the land?
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p> Age is just a number for us, there are no age restrictions. Different ages mean different levels of knowledge and awareness and that's why we even prefer a mixed bag. </p>
+                </blockquote>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                Is there a minimum or maximum length of stay?
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p> As long as the work assignment fits and the coexistence with the other volunteers is harmonious, there is no maximum length of stay. The longer a volunteer is part of Arambha, the more insight, knowledge and responsibility he
+                    will get. The project is designed for a long time and we are happy to have people with us who want to stay medium to long term. We have set 1 month as the minimum length of stay. The reason for this is that explaining and settling
+                    in
+                    takes a certain amount of time and it is time-consuming for us to do it over and over again. </p>
+                </blockquote>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                I live on the island and would like to occasionally help out, exchange ideas and learn something, is there a way to do this?
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p> Yes, we can figure out how both sides will benefit from each other. </p>
+                </blockquote>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                Do I have to take care of my own food?
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p> Arambha has an outdoor kitchen which is fully equipped for food preparation regardless of your nutritional philosophy.
+                    The volunteers have a community fund that is used to buy food and the rest is harvested in the fields. The whole thing is either prepared individually or there is a volunteer-chef. </p>
+                </blockquote>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                How do I get from nature to civilization?
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p> You can walk to Ribeira Brava in about an hour, where you will find a farmer's market, health food store, supermarkets, pharmacies, ecological laundry, a beach, restaurants and bars. In 10 minutes you can walk to a bus stop to
+                    get to Ribeira Brava from where you can take a bus around the island. </p>
+                </blockquote>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                How do I get from the airport to the project?
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p> By bus from the airport to Funchal Bus Terminal, change there, to Ribeira Brava, change there and direction Furna, up to the Bar "o Passarinho" stop. From there it is a 10 minute walk. Alternatively, there is the possibility to
+                    rent a car at the airport. </p>
+                </blockquote>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                Do I have to bring bed linen?
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p> No, bed linen is provided, but you must bring your own towels </p>
+                </blockquote>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                I would rather sleep in a tent, is that possible?
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p> Yes, there is a place to camp. </p>
+                </blockquote>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                Do I have to pay anything for my stay?
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p> No, nothing has to be paid for it. We consider it a fair exchange to swap one's labor for a stay in a very beautiful and transforming place. </p>
+                </blockquote>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                Do I need any previous knowledge to be able to help with the project?
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p> No, no previous knowledge is required, it is much more important that the motivation is right </p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed help-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-helpCollapseTwo" aria-expanded="false" aria-controls="flush-helpCollapseTwo">
+          Donate
+        </button>
+      </h2>
+      <div id="flush-helpCollapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <h3 class="donate-text">You can also help us from afar with donations and thus contribute to a better society.</h3>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <p class="donate-text2">
+                  We live in a time with rapidly changing conditions and what was considered safe for a long time is now at least carries a question mark. Whether real estate, stocks, physical metals, crypto currencies, where the journey is going is
+                  not
+                  exactly known. It seems like two parallel societies are developing. One strives for progress at all costs, wants to advance technologically as quickly as possible, the other chooses the "magical path" and tries to preserve and
+                  improve
+                  old knowledge and tradition.
+                  Regardless of which of the two directions you belong, both need healthy food. In the foreseeable future, we hardly will be able to avoid eating, which is why the money is well invested here. We are working on increasing the size of
+                  the
+                  project, technically improving it, protecting species, working with really sustainable building materials, promoting natural energy generation, learning fundamental things for children and finding ways to support people with health
+                  problems.
+                </p>
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <form action="https://www.paypal.com/donate" method="post" target="_blank">
+                      <input type="hidden" name="hosted_button_id" value="ZJ9XFR2D69ANL" />
+                      <button class="pay-button">PayPal</button>
+                    </form>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div>
+                      <form action="https://commerce.coinbase.com/checkout/cd7e9d99-07f4-4b24-86a5-8e1fe8b620dc" method="get" target="_blank">
+                        <button class="pay-button">Crypto</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+  <!-- Video -->
+  <section class="white-section" id="video">
+    <div class="container">
+
+      <div class="embed-responsive embed-responsive-16by9" id="video-frame">
+        <iframe class="embed-responsive-item responsive-iframe" src="https://www.youtube.com/embed/odKjhSsnY7Q" allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="white-section" id="contact-section">
+
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <div class="wrapper">
+            <div class="row no-gutters" id="contact">
+              <!-- Contact Form -->
+              <div class="col-md-6 green-section">
+                <div class="contact-wrap w-100 p-lg-5 p-4">
+                  <!-- Title -->
+                  <h3 class="mb-4 contact-title1">Send us a message</h3>
+                  <form method="POST" id="contactForm" name="contactForm" class="contactForm" novalidate="novalidate" action="email.php" onsubmit="this.submit(); this.reset(); return false;">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <!-- Name Input -->
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <!-- Email Input -->
+                        <div class="form-group">
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <!-- Subject Input -->
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                        </div>
+                      </div>
+                      <!-- Message Input -->
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <textarea name="message" class="form-control" id="message" cols="30" rows="6" placeholder="Message"></textarea>
+                        </div>
+                      </div>
+                      <!-- Submit Button -->
+                      <div class="col-md-12">
+                        <div class="form-group btn-pos">
+                          <input type="submit" value="Send" class="btn btn-primary">
+                          <div class="submitting"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <!-- Contact Details -->
+              <div class="col-md-6 d-flex align-items-stretch brown-section">
+                <!-- Title -->
+                <div class="info-wrap w-100 p-lg-5 p-4 img">
+                  <h3 class="contact-title2">Contact us</h3>
+                  <p class="mb-4 text-grey">We're open for any suggestions or just to have a chat</p>
+
+                  <ul class="fa-ul contact-items">
+                    <!-- Phone Number -->
+                    <li>
+                      <i class="fa-li fa fa-phone"></i>
+                      <div class="text pl-3 text-grey">
+                        <p><span>Telegram & Signal: </span>
+                          <br>
+                          Markus (+351) 963757310
+                          <br>
+                          Daniel (+39) 3336126496
+                        </p>
+                      </div>
+                    </li>
+                    <!-- Email Address -->
+                    <li>
+                      <i class="fa-li fa fa-paper-plane"></i>
+                      <div class="text pl-3 text-grey">
+                        <p><span>Email:</span> <br> <a href="mailto:info@yoursite.com">info@arambha.net</a></p>
+                      </div>
+                    </li>
+                    <!-- Street Address -->
+                    <li>
+                      <i class="fa-li fas fa-map-marker-alt"></i>
+                      <div class="text pl-3 text-grey">
+                        <p><span>Address:</span> <br> Caminho do pico ferreiro 201, 9350-411, Tabua, Madeira, Portugal</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                  <div id="map">
+                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNb4-2LEqFkghG_cnBc-5oS0udufzxxfc&callback=initMap&libraries=&v=weekly" async></script>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-section" id="footer">
+
+    <div class="container-fluid">
+
+      <!--Copyright Text-->
+      <p class="footer-text">© Copyright 2021 Arambha</p>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title></title>
+
+    <!-- CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Combo&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Google Maps -->
+    <script src="JS/index.js"></script>
+
+    <!--JavaScript Select -->
+    <script src="JS/select.js"></script>
+  </head>
+
+  <body id="friends-body">
+    <!-- NavBar -->
+    <section class="navbar-section" id="friends">
+      <div class="container-fluid">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <!-- Navbar Title -->
+          <a class="navbar-brand" href="http://arambha.net/">
+            <span class="title-arambha">ARAMBHA</span>
+          </a>
+
+          <!-- Navbar Mobile Button -->
+          <button
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar Items -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="http://arambha.net/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://arambha.net/workshop.html"
+                  >Workshop</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://arambha.net/blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://arambha.net/friends.html"
+                  >Friends</a
+                >
+              </li>
+            </ul>
+
+            <!-- Language selection -->
+            <select name="language" id="language" onchange="select.js">
+              <option value="english-friend">En</option>
+              <option value="german-friend">De</option>
+              <option value="portuguese-friend">Pt</option>
+            </select>
+          </div>
+        </nav>
+      </div>
+
+      <div class="container-fluid">
+        <h5 class="friends-heading">
+          Feel free to support our friends here in Madeira:
+        </h5>
+        <div class="list-group list-group-flush">
+          <a
+            href="https://www.thumbsupforgaia.org/"
+            class="list-group-item green-item"
+            target="_blank"
+            >Thumbs up for gaia – Sítio do Pomar</a
+          >
+          <a
+            href="https://www.biogarten-holzkirchen.de/"
+            class="list-group-item brown-item"
+            target="_blank"
+            >Biogarten Holzkirchen Permakultur</a
+          >
+          <a
+            href="http://www.omniartisan.com/market/"
+            class="list-group-item green-item"
+            target="_blank"
+            >Omniartisan Bio Vegetables Ponta do sol</a
+          >
+          <a
+            href="https://www.facebook.com/Naturanza-Holistic-Camping-870430810006922/"
+            class="list-group-item brown-item"
+            target="_blank"
+            >Naturanza Holistic Camping Funchal Monte</a
+          >
+          <a
+            href="http://www.cillinlyons.me"
+            class="list-group-item green-item"
+            target="_blank"
+            >Cillin Lyons - Web Developer</a
+          >
+          <a
+            href="https://casabiologica.de/"
+            class="list-group-item brown-item"
+            target="_blank"
+            >Casa Biologica Apartments Calheta</a
+          >
+          <a
+            href="https://guesthouse-the-view.business.site/"
+            class="list-group-item green-item"
+            target="_blank"
+            >Guesthouse the view Campanario</a
+          >
+          <a
+            href="https://escolaagricola.madeira.gov.pt/"
+            class="list-group-item brown-item"
+            target="_blank"
+            >Escola agricola da Madeira</a
+          >
+          <a
+            href="https://www.instagram.com/bioforma_ribeirabrava/"
+            class="list-group-item green-item"
+            target="_blank"
+            >Bioforma Ribeira Brava</a
+          >
+          <a
+            href="https://www.algoplant.com/"
+            class="list-group-item brown-item"
+            target="_blank"
+            >Algoplant Online Store</a
+          >
+          <a
+            href="https://www.facebook.com/johnbrazterapeuta"
+            class="list-group-item green-item"
+            target="_blank"
+            >P-DTR Therapy by John Braz</a
+          >
+          <a
+            href="http://emotion-code-madeira.com/"
+            class="list-group-item brown-item"
+            target="_blank"
+            >Emotion Code Therapy by Swanette Kuntze</a
+          >
+          <a
+            href="https://www.madeiracraftbeer.com/"
+            class="list-group-item green-item"
+            target="_blank"
+            >Almirante do Atlantico Cerveja Artesanal</a
+          >
+          <a
+            href="https://www.facebook.com/ilheuclassicsailing/"
+            class="list-group-item brown-item"
+            target="_blank"
+            >Ilhéu Classic Sailing Calheta</a
+          >
+          <a
+            href="http://m-image.nl/"
+            class="list-group-item green-item"
+            target="_blank"
+            >Photography by Mike</a
+          >
+          <a
+            href="https://www.porta33.com/"
+            class="list-group-item brown-item"
+            target="_blank"
+            >Porta 33 Funchal</a
+          >
+          <a
+            href="https://www.facebook.com/lartedellapizzaitaliana/"
+            class="list-group-item green-item"
+            target="_blank"
+            >Pizzeria Sorrento Camara de lobos</a
+          >
+          <a
+            href="https://www.tripadvisor.de/Restaurant_Review-g189167-d1101579-Reviews-Sabor_da_India-Funchal_Madeira_Madeira_Islands.html"
+            class="list-group-item brown-item"
+            target="_blank"
+            >Sabor da India Funchal</a
+          >
+          <a
+            href="https://motorhomemadeira.com/"
+            class="list-group-item green-item"
+            target="_blank"
+            >Motorhome Camper Rental</a
+          >
+          <a
+            href="https://www.magoscar.com/"
+            class="list-group-item brown-item"
+            target="_blank"
+            >Magoscar Car & Motobike Rental</a
+          >
+          <a
+            href="https://www.madeiradivingcenter.com/"
+            class="list-group-item green-item"
+            target="_blank"
+            >Madeira Diving Center Canico</a
+          >
+          <a
+            href="http://timodersch.de/"
+            class="list-group-item brown-item"
+            target="_blank"
+            >Underwater Photography by Timo Dersch</a
+          >
+          <a
+            href="https://pt.linkedin.com/in/alonsopassos"
+            class="list-group-item green-item"
+            target="_blank"
+            >Real Estate & Invenstment Alonso Passos</a
+          >
+          <a
+            href="https://www.drejanovak.com/"
+            class="list-group-item brown-item"
+            target="_blank"
+            >Artist Dreya Novak</a
+          >
+          <a
+            href="https://instagram.com/bioercisousa?utm_medium=copy_link"
+            class="list-group-item green-item"
+            target="_blank"
+            >Ercilia's Bio Veggie's</a
+          >
+          <a
+            href="https://www.airbnb.com/rooms/21602365?source_impression_id=p3_1633974198_%2FTSWhMMHljT5g1W9&guests=1&adults=1"
+            class="list-group-item brown-item"
+            target="_blank"
+            >Granny's Farm</a
+          >
+          <a
+            href="https://mrpokee.com//"
+            class="list-group-item green-item"
+            target="_blank"
+            >Mr. Pokee</a
+          >
+          <a
+            href="https://www.howe-photography.com//"
+            class="list-group-item brown-item"
+            target="_blank"
+            >Howe Photography & Yoga</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section" id="footer">
+      <div class="container-fluid">
+        <!--Copyright Text-->
+        <p class="footer-text">© Copyright 2021 Arambha</p>
+      </div>
+    </footer>
+  </body>
+</html>
